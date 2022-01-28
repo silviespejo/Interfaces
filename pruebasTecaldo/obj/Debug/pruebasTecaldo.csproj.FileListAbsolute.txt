@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\pruebasTecaldo\bin\Debug\pruebasTecaldo.exe.config
+C:\Users\Alumno\source\repos\pruebasTecaldo\bin\Debug\pruebasTecaldo.exe
+C:\Users\Alumno\source\repos\pruebasTecaldo\bin\Debug\pruebasTecaldo.pdb
+C:\Users\Alumno\source\repos\pruebasTecaldo\obj\Debug\pruebasTecaldo.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\pruebasTecaldo\obj\Debug\pruebasTecaldo.FormDibujar.resources
+C:\Users\Alumno\source\repos\pruebasTecaldo\obj\Debug\pruebasTecaldo.Properties.Resources.resources
+C:\Users\Alumno\source\repos\pruebasTecaldo\obj\Debug\pruebasTecaldo.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\pruebasTecaldo\obj\Debug\pruebasTecaldo.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\pruebasTecaldo\obj\Debug\pruebasTecaldo.exe
+C:\Users\Alumno\source\repos\pruebasTecaldo\obj\Debug\pruebasTecaldo.pdb
