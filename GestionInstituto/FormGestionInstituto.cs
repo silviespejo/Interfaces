@@ -22,5 +22,17 @@ namespace GestionInstituto
             FormAltaAlumno formAltaAlumno = new FormAltaAlumno();
             formAltaAlumno.Show();
         }
+
+        private void bajaAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormBajaAlumno formBajaAlumno = new FormBajaAlumno();
+            formBajaAlumno.Show();
+        }
+
+        private void todosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConsultaTodos formConsultaTodos = new FormConsultaTodos();
+            formConsultaTodos.Show();
+        }
     }
 }

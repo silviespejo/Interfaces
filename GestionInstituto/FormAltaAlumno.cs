@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -28,6 +30,12 @@ namespace GestionInstituto
                 mail = textBoxMail.Text, nombreCurso = seleccinarCurso(), grupo = seleccionarGrupo();
             Dictionary<String, bool> modulosActivos = asignarModulos();
             Alumno alumno = new Alumno(nombre, apellidos, dni, mail, nombreCurso, grupo, modulosActivos);
+
+            FileStream stream = new FileStream("alumnos.obj", FileMode.Append, FileAccess.Write);
+            BinaryFormatter binaryFormatter = new BinaryFormatter();
+            binaryFormatter.Serialize(stream, alumno);
+            stream.Close();
+
             textBoxInfo.Text = "El alumno "+nombre+" se ha creado correctamente.";
             limpiar();
         }

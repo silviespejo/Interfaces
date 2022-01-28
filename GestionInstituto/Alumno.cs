@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestionInstituto
 {
+    [Serializable]
     class Alumno
     {
         private String nombre, apellidos, dni, mail;

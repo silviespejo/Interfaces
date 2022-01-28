@@ -16,5 +16,10 @@ namespace GestionInstituto
         {
             InitializeComponent();
         }
+
+        private void buttonBaja_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestionInstituto
 {
+    [Serializable]
     class InfoModulo
     {
         private bool activo;
