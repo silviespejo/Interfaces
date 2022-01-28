@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\FormularioClientesBanco\bin\Debug\FormularioClientesBanco.exe.config
+C:\Users\Alumno\source\repos\FormularioClientesBanco\bin\Debug\FormularioClientesBanco.exe
+C:\Users\Alumno\source\repos\FormularioClientesBanco\bin\Debug\FormularioClientesBanco.pdb
+C:\Users\Alumno\source\repos\FormularioClientesBanco\obj\Debug\FormularioClientesBanco.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\FormularioClientesBanco\obj\Debug\FormularioClientesBanco.Form1.resources
+C:\Users\Alumno\source\repos\FormularioClientesBanco\obj\Debug\FormularioClientesBanco.Properties.Resources.resources
+C:\Users\Alumno\source\repos\FormularioClientesBanco\obj\Debug\FormularioClientesBanco.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\FormularioClientesBanco\obj\Debug\FormularioClientesBanco.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\FormularioClientesBanco\obj\Debug\FormularioClientesBanco.exe
+C:\Users\Alumno\source\repos\FormularioClientesBanco\obj\Debug\FormularioClientesBanco.pdb
