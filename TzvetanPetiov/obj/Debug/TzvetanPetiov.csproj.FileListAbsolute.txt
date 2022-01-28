@@ -1,0 +1,12 @@
+C:\Users\Alumno\source\repos\TzvetanPetiov\bin\Debug\TzvetanPetiov.exe.config
+C:\Users\Alumno\source\repos\TzvetanPetiov\bin\Debug\TzvetanPetiov.exe
+C:\Users\Alumno\source\repos\TzvetanPetiov\bin\Debug\TzvetanPetiov.pdb
+C:\Users\Alumno\source\repos\TzvetanPetiov\obj\Debug\TzvetanPetiov.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\TzvetanPetiov\obj\Debug\TzvetanPetiov.Properties.Resources.resources
+C:\Users\Alumno\source\repos\TzvetanPetiov\obj\Debug\TzvetanPetiov.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\TzvetanPetiov\obj\Debug\TzvetanPetiov.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\TzvetanPetiov\obj\Debug\TzvetanPetiov.exe
+C:\Users\Alumno\source\repos\TzvetanPetiov\obj\Debug\TzvetanPetiov.pdb
+C:\Users\Alumno\source\repos\TzvetanPetiov\obj\Debug\TzvetanPetiov.FormRegistro.resources
+C:\Users\Alumno\source\repos\TzvetanPetiov\obj\Debug\TzvetanPetiov.FormAccesoUsuarios.resources
+C:\Users\Alumno\source\repos\TzvetanPetiov\obj\Debug\TzvetanPetiov.FormReclamaciones.resources
