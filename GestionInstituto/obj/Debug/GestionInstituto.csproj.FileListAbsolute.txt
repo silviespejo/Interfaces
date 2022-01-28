@@ -9,3 +9,14 @@ C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.csproj.
 C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.exe
 C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.pdb
 C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.FormAltaAlumno.resources
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\bin\Debug\GestionInstituto.exe.config
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\bin\Debug\GestionInstituto.exe
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\bin\Debug\GestionInstituto.pdb
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.csproj.AssemblyReference.cache
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormAltaAlumno.resources
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormGestionInstituto.resources
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.Properties.Resources.resources
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.csproj.GenerateResource.cache
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.csproj.CoreCompileInputs.cache
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.exe
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.pdb

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestionInstituto
 {
+    // prueba
     class Curso
     {
         private String nombreCurso, grupo;
