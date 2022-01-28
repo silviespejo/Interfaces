@@ -1,0 +1,14 @@
+C:\Users\Alumno\source\repos\DonantesSangre\bin\Debug\DonantesSangre.exe.config
+C:\Users\Alumno\source\repos\DonantesSangre\bin\Debug\DonantesSangre.exe
+C:\Users\Alumno\source\repos\DonantesSangre\bin\Debug\DonantesSangre.pdb
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.FormGestionDonantes.resources
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.Properties.Resources.resources
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.exe
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.pdb
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.FormBajaDonante.resources
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.FormBusquedaDonante.resources
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.FormNuevoDonante.resources
+C:\Users\Alumno\source\repos\DonantesSangre\obj\Debug\DonantesSangre.TiposDisponibles.resources
