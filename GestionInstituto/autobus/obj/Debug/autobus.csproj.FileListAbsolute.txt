@@ -1,0 +1,13 @@
+C:\Users\Alumno\source\repos\autobus\bin\Debug\autobus.exe.config
+C:\Users\Alumno\source\repos\autobus\bin\Debug\autobus.exe
+C:\Users\Alumno\source\repos\autobus\bin\Debug\autobus.pdb
+C:\Users\Alumno\source\repos\autobus\obj\Debug\autobus.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\autobus\obj\Debug\autobus.Properties.Resources.resources
+C:\Users\Alumno\source\repos\autobus\obj\Debug\autobus.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\autobus\obj\Debug\autobus.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\autobus\obj\Debug\autobus.exe
+C:\Users\Alumno\source\repos\autobus\obj\Debug\autobus.pdb
+C:\Users\Alumno\source\repos\autobus\obj\Debug\autobus.FormAutobus.resources
+C:\Users\Alumno\source\repos\autobus\obj\Debug\autobus.FormRegistrar.resources
+C:\Users\Alumno\source\repos\autobus\obj\Debug\autobus.FormMostrar.resources
+C:\Users\Alumno\source\repos\autobus\obj\Debug\autobus.FormComprarBillete.resources
