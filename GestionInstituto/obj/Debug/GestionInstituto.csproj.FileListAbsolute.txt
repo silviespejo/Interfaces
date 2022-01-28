@@ -1,0 +1,11 @@
+C:\Users\Alumno\source\repos\GestionInstituto\bin\Debug\GestionInstituto.exe.config
+C:\Users\Alumno\source\repos\GestionInstituto\bin\Debug\GestionInstituto.exe
+C:\Users\Alumno\source\repos\GestionInstituto\bin\Debug\GestionInstituto.pdb
+C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.FormGestionInstituto.resources
+C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.Properties.Resources.resources
+C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.exe
+C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.pdb
+C:\Users\Alumno\source\repos\GestionInstituto\obj\Debug\GestionInstituto.FormAltaAlumno.resources

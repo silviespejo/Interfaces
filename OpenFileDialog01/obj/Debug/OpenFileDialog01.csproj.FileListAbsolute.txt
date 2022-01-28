@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\OpenFileDialog01\bin\Debug\OpenFileDialog01.exe.config
+C:\Users\Alumno\source\repos\OpenFileDialog01\bin\Debug\OpenFileDialog01.exe
+C:\Users\Alumno\source\repos\OpenFileDialog01\bin\Debug\OpenFileDialog01.pdb
+C:\Users\Alumno\source\repos\OpenFileDialog01\obj\Debug\OpenFileDialog01.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\OpenFileDialog01\obj\Debug\OpenFileDialog01.Form1.resources
+C:\Users\Alumno\source\repos\OpenFileDialog01\obj\Debug\OpenFileDialog01.Properties.Resources.resources
+C:\Users\Alumno\source\repos\OpenFileDialog01\obj\Debug\OpenFileDialog01.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\OpenFileDialog01\obj\Debug\OpenFileDialog01.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\OpenFileDialog01\obj\Debug\OpenFileDialog01.exe
+C:\Users\Alumno\source\repos\OpenFileDialog01\obj\Debug\OpenFileDialog01.pdb
