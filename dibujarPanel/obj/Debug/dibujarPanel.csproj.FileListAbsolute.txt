@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\dibujarPanel\bin\Debug\dibujarPanel.exe.config
+C:\Users\Alumno\source\repos\dibujarPanel\bin\Debug\dibujarPanel.exe
+C:\Users\Alumno\source\repos\dibujarPanel\bin\Debug\dibujarPanel.pdb
+C:\Users\Alumno\source\repos\dibujarPanel\obj\Debug\dibujarPanel.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\dibujarPanel\obj\Debug\dibujarPanel.FormDibujarPanel.resources
+C:\Users\Alumno\source\repos\dibujarPanel\obj\Debug\dibujarPanel.Properties.Resources.resources
+C:\Users\Alumno\source\repos\dibujarPanel\obj\Debug\dibujarPanel.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\dibujarPanel\obj\Debug\dibujarPanel.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\dibujarPanel\obj\Debug\dibujarPanel.exe
+C:\Users\Alumno\source\repos\dibujarPanel\obj\Debug\dibujarPanel.pdb
