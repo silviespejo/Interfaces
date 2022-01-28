@@ -18,7 +18,7 @@ namespace GestionInstituto
             this.modulos = decidirModulos(nombreCurso, modulos);
         }
 
-        /**Este métoddo sirve */
+        // Este métoddo sirve
         private Dictionary<string, InfoModulo> decidirModulos(String nombreCurso,
             Dictionary<String, bool> modulosActivos)
         {
@@ -29,16 +29,16 @@ namespace GestionInstituto
                 // modulosActivos es el diccionario que creamos en FomrAltaAlumno, este diccionario contiene
                 // como clave un String con el nombre del módulo y como valor un bool indicando si el módulo
                 // esta dado de alta o de baja, ya que cada alumno será diferente
-                modulos.Add("Programacion", infoModulo = new InfoModulo(modulosActivos.ContainsKey("Programacion")));
-                modulos.Add("Entornos", infoModulo = new InfoModulo(modulosActivos.ContainsKey("Entornos")));
-                modulos.Add("BBDD", infoModulo = new InfoModulo(modulosActivos.ContainsKey("BBDD")));
+                modulos.Add("Programacion", new InfoModulo(modulosActivos.ContainsKey("Programacion")));
+                modulos.Add("Entornos", new InfoModulo(modulosActivos.ContainsKey("Entornos")));
+                modulos.Add("BBDD", new InfoModulo(modulosActivos.ContainsKey("BBDD")));
                 return modulos;
             }
             else
             {
-                modulos.Add("Interfaces", infoModulo = new InfoModulo(modulosActivos.ContainsKey("Interfaces")));
-                modulos.Add("SGE", infoModulo = new InfoModulo(modulosActivos.ContainsKey("SGE")));
-                modulos.Add("Procesos", infoModulo = new InfoModulo(modulosActivos.ContainsKey("Procesos")));
+                modulos.Add("Interfaces",new InfoModulo(modulosActivos.ContainsKey("Interfaces")));
+                modulos.Add("SGE", new InfoModulo(modulosActivos.ContainsKey("SGE")));
+                modulos.Add("Procesos", new InfoModulo(modulosActivos.ContainsKey("Procesos")));
                 return modulos;
             }
         }

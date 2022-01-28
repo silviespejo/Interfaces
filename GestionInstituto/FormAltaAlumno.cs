@@ -28,7 +28,7 @@ namespace GestionInstituto
                 mail = textBoxMail.Text, nombreCurso = seleccinarCurso(), grupo = seleccionarGrupo();
             Dictionary<String, bool> modulosActivos = asignarModulos();
             Alumno alumno = new Alumno(nombre, apellidos, dni, mail, nombreCurso, grupo, modulosActivos);
-            // textBoxInfo.Text = "El alumno "+nombre+" se ha creado correctamente.";
+            textBoxInfo.Text = "El alumno "+nombre+" se ha creado correctamente.";
             limpiar();
         }
 
@@ -37,46 +37,25 @@ namespace GestionInstituto
             // esta función nos comprueba que checkboxes están seleccionados,
             // y añade el resultado a un diccionario
             Dictionary<String, bool> modulos = new Dictionary<string, bool>();
-            if (radioButton1DAM.Checked == true) // si esta seleccionado 1ºDAM
+            if (radioButton1DAM.Checked == true) // si está seleccionado 1ºDAM
             {
-
-                textBoxInfo.Text = ("");
+                // Este foreach lo que hace es extraer todos los controles del control "groupBoxModulos1" y uno a uno
+                // va extrayendo la info que nos dan los checbox y recopilando esta info en el diccionario
                 foreach (Control control in groupBoxModulos1.Controls)
                 {
-                    CheckBox checkBox = control as CheckBox;
-                    modulos.Add(checkBox.Text, checkBox.Checked);
-                    textBoxInfo.Text += (checkBox.Text +"="+ checkBox.Checked+" | ");
+                    CheckBox checkBox = (CheckBox)control;
+                    if (!checkBox.Text.Equals("Todos")) // no queremos meter la info en el diccionadio del checkbox "Todos"
+                        modulos.Add(checkBox.Text, checkBox.Checked); // vamos añadiendo al diccionario la información sobre los módulos seleccionados
                 }
-
-                /*
-                if (checkBoxProgramacion.Checked == true)
-                    modulos.Add("Programacion", true);
-                else
-                    modulos.Add("Programacion", false);
-                if (checkBoxEntornos.Checked == true)
-                    modulos.Add("Entornos", true);
-                else
-                    modulos.Add("Entornos", false);
-                if (checkBoxBBDD.Checked == true)
-                    modulos.Add("BBDD", true);
-                else
-                    modulos.Add("BBDD", false);
-                */
             }
-            else if (radioButton2DAM.Checked == true) // si esta seleccionado 2ºDAM
+            else if (radioButton2DAM.Checked == true) // si está seleccionado 2ºDAM
             {
-                if (checkBoxInterfaces.Checked == true)
-                    modulos.Add("Interfaces", true);
-                else
-                    modulos.Add("Interfaces", false);
-                if (checkBoxSGE.Checked == true)
-                    modulos.Add("SGE", true);
-                else
-                    modulos.Add("SGE", false);
-                if (checkBoxProcesos.Checked == true)
-                    modulos.Add("Procesos", true);
-                else
-                    modulos.Add("Procesos", false);
+                foreach (Control control in groupBoxModulos2.Controls)
+                {
+                    CheckBox checkBox = (CheckBox)control;
+                    if (!checkBox.Text.Equals("Todos"))
+                        modulos.Add(checkBox.Text, checkBox.Checked);
+                }
             }
             else MessageBox.Show("No has seleccionado ningún curso");
 
@@ -85,14 +64,14 @@ namespace GestionInstituto
 
         private string seleccionarGrupo()
         {
-            if (radioButtonA.Checked == true) return "A";
-            else return "B";
+            if (radioButtonA.Checked == true) return radioButtonA.Text;
+            else return radioButtonB.Text;
         }
 
         private String seleccinarCurso() 
         {
-            if (radioButton1DAM.Checked == true) return "1º DAM";
-            else return "2º DAM";
+            if (radioButton1DAM.Checked == true) return radioButton1DAM.Text;
+            else return radioButton2DAM.Text;
         }
 
         private void checkBoxTodos1_CheckedChanged(object sender, EventArgs e)
