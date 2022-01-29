@@ -26,17 +26,17 @@ namespace GestionInstituto
 
         private void buttonCrear_Click(object sender, EventArgs e)
         {
+            // creamos el objeto alumno
             String nombre = textBoxNombre.Text, apellidos = textBoxApellidos.Text, dni = textBoxDni.Text,
                 mail = textBoxMail.Text, nombreCurso = seleccinarCurso(), grupo = seleccionarGrupo();
             Dictionary<String, bool> modulosActivos = asignarModulos();
             Alumno alumno = new Alumno(nombre, apellidos, dni, mail, nombreCurso, grupo, modulosActivos);
 
+            // creamos o abrimos el fichero y añadimos el objeto alumno
             FileStream stream = new FileStream("alumnos.obj", FileMode.Append, FileAccess.Write);
             BinaryFormatter binaryFormatter = new BinaryFormatter();
             binaryFormatter.Serialize(stream, alumno);
             stream.Close();
-
-            textBoxInfo.Text = "El alumno "+nombre+" se ha creado correctamente.";
             limpiar();
         }
 
@@ -44,7 +44,7 @@ namespace GestionInstituto
         {
             // esta función nos comprueba que checkboxes están seleccionados,
             // y añade el resultado a un diccionario
-            Dictionary<String, bool> modulos = new Dictionary<string, bool>();
+            Dictionary<String, bool> modulosActivos = new Dictionary<string, bool>();
             if (radioButton1DAM.Checked == true) // si está seleccionado 1ºDAM
             {
                 // Este foreach lo que hace es extraer todos los controles del control "groupBoxModulos1" y uno a uno
@@ -53,7 +53,7 @@ namespace GestionInstituto
                 {
                     CheckBox checkBox = (CheckBox)control;
                     if (!checkBox.Text.Equals("Todos")) // no queremos meter la info en el diccionadio del checkbox "Todos"
-                        modulos.Add(checkBox.Text, checkBox.Checked); // vamos añadiendo al diccionario la información sobre los módulos seleccionados
+                        modulosActivos.Add(checkBox.Text, checkBox.Checked); // vamos añadiendo al diccionario la información sobre los módulos seleccionados
                 }
             }
             else if (radioButton2DAM.Checked == true) // si está seleccionado 2ºDAM
@@ -62,12 +62,12 @@ namespace GestionInstituto
                 {
                     CheckBox checkBox = (CheckBox)control;
                     if (!checkBox.Text.Equals("Todos"))
-                        modulos.Add(checkBox.Text, checkBox.Checked);
+                        modulosActivos.Add(checkBox.Text, checkBox.Checked);
                 }
             }
             else MessageBox.Show("No has seleccionado ningún curso");
 
-            return modulos;
+            return modulosActivos;
         }
 
         private string seleccionarGrupo()

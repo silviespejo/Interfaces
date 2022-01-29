@@ -42,15 +42,15 @@ namespace GestionInstituto
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxCurso = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelModulos = new System.Windows.Forms.Label();
             this.textBoxModulo3 = new System.Windows.Forms.TextBox();
-            this.labelModulo3 = new System.Windows.Forms.Label();
             this.textBoxModulo2 = new System.Windows.Forms.TextBox();
-            this.labelModulo2 = new System.Windows.Forms.Label();
             this.textBoxModulo1 = new System.Windows.Forms.TextBox();
-            this.labelModulo1 = new System.Windows.Forms.Label();
             this.buttonCancelar = new System.Windows.Forms.Button();
             this.buttonBuscar = new System.Windows.Forms.Button();
+            this.panelTextBoxModulos = new System.Windows.Forms.Panel();
+            this.textBoxInfo = new System.Windows.Forms.TextBox();
+            this.panelTextBoxModulos.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -89,7 +89,7 @@ namespace GestionInstituto
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(468, 34);
+            this.label3.Location = new System.Drawing.Point(427, 34);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 13);
             this.label3.TabIndex = 4;
@@ -163,72 +163,42 @@ namespace GestionInstituto
             this.label8.TabIndex = 11;
             this.label8.Text = "Curso:";
             // 
-            // label7
+            // labelModulos
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(497, 210);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 13);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Módulos:";
-            this.label7.Visible = false;
+            this.labelModulos.AutoSize = true;
+            this.labelModulos.Location = new System.Drawing.Point(461, 210);
+            this.labelModulos.Name = "labelModulos";
+            this.labelModulos.Size = new System.Drawing.Size(50, 13);
+            this.labelModulos.TabIndex = 13;
+            this.labelModulos.Text = "Módulos:";
+            this.labelModulos.Visible = false;
             // 
             // textBoxModulo3
             // 
             this.textBoxModulo3.Enabled = false;
-            this.textBoxModulo3.Location = new System.Drawing.Point(441, 287);
+            this.textBoxModulo3.Location = new System.Drawing.Point(6, 59);
             this.textBoxModulo3.Name = "textBoxModulo3";
-            this.textBoxModulo3.Size = new System.Drawing.Size(168, 20);
+            this.textBoxModulo3.Size = new System.Drawing.Size(253, 20);
             this.textBoxModulo3.TabIndex = 19;
             this.textBoxModulo3.Visible = false;
-            // 
-            // labelModulo3
-            // 
-            this.labelModulo3.AutoSize = true;
-            this.labelModulo3.Location = new System.Drawing.Point(352, 290);
-            this.labelModulo3.Name = "labelModulo3";
-            this.labelModulo3.Size = new System.Drawing.Size(70, 13);
-            this.labelModulo3.TabIndex = 18;
-            this.labelModulo3.Text = "labelModulo3";
-            this.labelModulo3.Visible = false;
             // 
             // textBoxModulo2
             // 
             this.textBoxModulo2.Enabled = false;
-            this.textBoxModulo2.Location = new System.Drawing.Point(441, 261);
+            this.textBoxModulo2.Location = new System.Drawing.Point(6, 33);
             this.textBoxModulo2.Name = "textBoxModulo2";
-            this.textBoxModulo2.Size = new System.Drawing.Size(168, 20);
+            this.textBoxModulo2.Size = new System.Drawing.Size(253, 20);
             this.textBoxModulo2.TabIndex = 17;
             this.textBoxModulo2.Visible = false;
-            // 
-            // labelModulo2
-            // 
-            this.labelModulo2.AutoSize = true;
-            this.labelModulo2.Location = new System.Drawing.Point(352, 264);
-            this.labelModulo2.Name = "labelModulo2";
-            this.labelModulo2.Size = new System.Drawing.Size(70, 13);
-            this.labelModulo2.TabIndex = 16;
-            this.labelModulo2.Text = "labelModulo2";
-            this.labelModulo2.Visible = false;
             // 
             // textBoxModulo1
             // 
             this.textBoxModulo1.Enabled = false;
-            this.textBoxModulo1.Location = new System.Drawing.Point(441, 235);
+            this.textBoxModulo1.Location = new System.Drawing.Point(6, 7);
             this.textBoxModulo1.Name = "textBoxModulo1";
-            this.textBoxModulo1.Size = new System.Drawing.Size(168, 20);
+            this.textBoxModulo1.Size = new System.Drawing.Size(253, 20);
             this.textBoxModulo1.TabIndex = 15;
             this.textBoxModulo1.Visible = false;
-            // 
-            // labelModulo1
-            // 
-            this.labelModulo1.AutoSize = true;
-            this.labelModulo1.Location = new System.Drawing.Point(352, 238);
-            this.labelModulo1.Name = "labelModulo1";
-            this.labelModulo1.Size = new System.Drawing.Size(70, 13);
-            this.labelModulo1.TabIndex = 14;
-            this.labelModulo1.Text = "labelModulo1";
-            this.labelModulo1.Visible = false;
             // 
             // buttonCancelar
             // 
@@ -238,6 +208,7 @@ namespace GestionInstituto
             this.buttonCancelar.TabIndex = 20;
             this.buttonCancelar.Text = "Cancelar";
             this.buttonCancelar.UseVisualStyleBackColor = true;
+            this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
             // 
             // buttonBuscar
             // 
@@ -249,20 +220,33 @@ namespace GestionInstituto
             this.buttonBuscar.UseVisualStyleBackColor = true;
             this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
             // 
+            // panelTextBoxModulos
+            // 
+            this.panelTextBoxModulos.Controls.Add(this.textBoxModulo1);
+            this.panelTextBoxModulos.Controls.Add(this.textBoxModulo2);
+            this.panelTextBoxModulos.Controls.Add(this.textBoxModulo3);
+            this.panelTextBoxModulos.Location = new System.Drawing.Point(349, 226);
+            this.panelTextBoxModulos.Name = "panelTextBoxModulos";
+            this.panelTextBoxModulos.Size = new System.Drawing.Size(260, 87);
+            this.panelTextBoxModulos.TabIndex = 22;
+            // 
+            // textBoxInfo
+            // 
+            this.textBoxInfo.Location = new System.Drawing.Point(116, 371);
+            this.textBoxInfo.Name = "textBoxInfo";
+            this.textBoxInfo.Size = new System.Drawing.Size(575, 20);
+            this.textBoxInfo.TabIndex = 23;
+            // 
             // FormConsultaTodos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBoxInfo);
+            this.Controls.Add(this.panelTextBoxModulos);
             this.Controls.Add(this.buttonBuscar);
             this.Controls.Add(this.buttonCancelar);
-            this.Controls.Add(this.textBoxModulo3);
-            this.Controls.Add(this.labelModulo3);
-            this.Controls.Add(this.textBoxModulo2);
-            this.Controls.Add(this.labelModulo2);
-            this.Controls.Add(this.textBoxModulo1);
-            this.Controls.Add(this.labelModulo1);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.labelModulos);
             this.Controls.Add(this.textBoxCurso);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBoxMail);
@@ -278,6 +262,8 @@ namespace GestionInstituto
             this.Controls.Add(this.label1);
             this.Name = "FormConsultaTodos";
             this.Text = "FormConsultaTodos";
+            this.panelTextBoxModulos.ResumeLayout(false);
+            this.panelTextBoxModulos.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -298,14 +284,13 @@ namespace GestionInstituto
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBoxCurso;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelModulos;
         private System.Windows.Forms.TextBox textBoxModulo3;
-        private System.Windows.Forms.Label labelModulo3;
         private System.Windows.Forms.TextBox textBoxModulo2;
-        private System.Windows.Forms.Label labelModulo2;
         private System.Windows.Forms.TextBox textBoxModulo1;
-        private System.Windows.Forms.Label labelModulo1;
         private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.Button buttonBuscar;
+        private System.Windows.Forms.Panel panelTextBoxModulos;
+        private System.Windows.Forms.TextBox textBoxInfo;
     }
 }

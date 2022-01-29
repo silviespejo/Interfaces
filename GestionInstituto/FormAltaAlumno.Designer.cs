@@ -230,7 +230,7 @@ namespace GestionInstituto
             this.checkBoxProgramacion.Name = "checkBoxProgramacion";
             this.checkBoxProgramacion.Size = new System.Drawing.Size(91, 17);
             this.checkBoxProgramacion.TabIndex = 19;
-            this.checkBoxProgramacion.Text = "Programación";
+            this.checkBoxProgramacion.Text = "Programacion";
             this.checkBoxProgramacion.UseVisualStyleBackColor = true;
             // 
             // groupBoxModulos2
@@ -327,7 +327,6 @@ namespace GestionInstituto
             this.textBoxInfo.Name = "textBoxInfo";
             this.textBoxInfo.Size = new System.Drawing.Size(312, 20);
             this.textBoxInfo.TabIndex = 24;
-            this.textBoxInfo.Text = "Info";
             // 
             // FormAltaAlumno
             // 

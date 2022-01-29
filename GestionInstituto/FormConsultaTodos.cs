@@ -21,13 +21,21 @@ namespace GestionInstituto
 
         private void buttonBuscar_Click(object sender, EventArgs e)
         {
-            FileStream stream = new FileStream("alumnos.obj", FileMode.Open, FileAccess.Read);
-            BinaryFormatter binaryFormatter = new BinaryFormatter();
-            Alumno alumno = (Alumno)binaryFormatter.Deserialize(stream);
+            if (File.Exists("alumnos.obj"))
+            {
+                FileStream stream = new FileStream("alumnos.obj", FileMode.Open, FileAccess.Read);
+                BinaryFormatter binaryFormatter = new BinaryFormatter();
 
-            mostrarInfoAlumno(alumno);
+                while (stream.Position != stream.Length)
+                {
+                    Alumno alumno = (Alumno)binaryFormatter.Deserialize(stream);
+                    if (alumno.Dni.Equals(textBoxBuscar.Text))
+                        mostrarInfoAlumno(alumno);
+                }
 
-            stream.Close();
+                stream.Close();
+            }
+            else MessageBox.Show("Fichero alumnos.obj no existe.");
         }
 
         private void mostrarInfoAlumno(Alumno alumno)
@@ -37,7 +45,37 @@ namespace GestionInstituto
             textBoxDni.Text = alumno.Dni;
             textBoxMail.Text = alumno.Mail;
             textBoxCurso.Text = alumno.Curso.NombreCurso + " " + alumno.Curso.Grupo;
-            textBoxModulo1.Text = alumno
+
+            List<TextBox> listaTextBoxModulos = new List<TextBox>();
+            foreach (Control control in panelTextBoxModulos.Controls)
+            {
+                if (control is TextBox)
+                {
+                    TextBox textBox = (TextBox)control;
+                    textBox.Visible = false;
+                    listaTextBoxModulos.Add(textBox);
+                }
+            }
+
+            // haremos un foreach del diccionario "modulos" que contiene toda la info sobre los módulos de cada alumno,
+            // iremos comprobando si cada uno de lo módulos esta activo
+            
+            labelModulos.Visible = true;
+            int i = 0;
+            foreach (KeyValuePair<String, InfoModulo> modulos in alumno.Curso.Modulos)
+            {
+                if (modulos.Value.Activo == true)
+                {
+                    listaTextBoxModulos[i].Visible = true;
+                    listaTextBoxModulos[i].Text = modulos.Key+" = "+modulos.Value.NotaFinal.ToString();
+                    ++i;
+                }
+            }
+        }
+
+        private void buttonCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
