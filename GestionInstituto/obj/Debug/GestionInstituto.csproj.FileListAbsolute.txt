@@ -22,3 +22,4 @@ C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstitu
 C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.pdb
 C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormBajaAlumno.resources
 C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormConsultaTodos.resources
+C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormAsignarNotas.resources

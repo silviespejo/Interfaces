@@ -41,6 +41,7 @@ namespace GestionInstituto
             this.todosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buttonBorrarFichero = new System.Windows.Forms.Button();
+            this.asignarNotasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -124,19 +125,28 @@ namespace GestionInstituto
             // 
             // notasToolStripMenuItem
             // 
+            this.notasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.asignarNotasToolStripMenuItem});
             this.notasToolStripMenuItem.Name = "notasToolStripMenuItem";
             this.notasToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.notasToolStripMenuItem.Text = "Notas";
             // 
             // buttonBorrarFichero
             // 
-            this.buttonBorrarFichero.Location = new System.Drawing.Point(229, 212);
+            this.buttonBorrarFichero.Location = new System.Drawing.Point(120, 190);
             this.buttonBorrarFichero.Name = "buttonBorrarFichero";
-            this.buttonBorrarFichero.Size = new System.Drawing.Size(75, 23);
+            this.buttonBorrarFichero.Size = new System.Drawing.Size(104, 23);
             this.buttonBorrarFichero.TabIndex = 1;
-            this.buttonBorrarFichero.Text = "Borrar";
+            this.buttonBorrarFichero.Text = "Borrar Ficchero";
             this.buttonBorrarFichero.UseVisualStyleBackColor = true;
             this.buttonBorrarFichero.Click += new System.EventHandler(this.buttonBorrarFichero_Click);
+            // 
+            // asignarNotasToolStripMenuItem
+            // 
+            this.asignarNotasToolStripMenuItem.Name = "asignarNotasToolStripMenuItem";
+            this.asignarNotasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.asignarNotasToolStripMenuItem.Text = "Asignar Notas";
+            this.asignarNotasToolStripMenuItem.Click += new System.EventHandler(this.asignarNotasToolStripMenuItem_Click);
             // 
             // FormGestionInstituto
             // 
@@ -169,6 +179,7 @@ namespace GestionInstituto
         private System.Windows.Forms.ToolStripMenuItem ºDAMBToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem todosToolStripMenuItem;
         private System.Windows.Forms.Button buttonBorrarFichero;
+        private System.Windows.Forms.ToolStripMenuItem asignarNotasToolStripMenuItem;
     }
 }
 

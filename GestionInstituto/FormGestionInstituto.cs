@@ -40,5 +40,11 @@ namespace GestionInstituto
         {
             File.Delete("alumnos.obj");
         }
+
+        private void asignarNotasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormAsignarNotas formAsignarNotas = new FormAsignarNotas();
+            formAsignarNotas.Show();
+        }
     }
 }
