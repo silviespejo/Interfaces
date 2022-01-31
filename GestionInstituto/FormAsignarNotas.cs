@@ -120,7 +120,7 @@ namespace GestionInstituto
                 streamCopia.Close();
                 File.Replace("alumnosCopia.obj", "alumnos.obj", "alumnosBackup.obj");
             }
-            else MessageBox.Show("No has seleccionado ningún alumno");
+            else MessageBox.Show("No has seleccionado ningún alumno.");
         }
 
         private void buttonCancelar_Click(object sender, EventArgs e)
