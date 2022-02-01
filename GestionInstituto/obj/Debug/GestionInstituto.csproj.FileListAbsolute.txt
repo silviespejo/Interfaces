@@ -23,3 +23,17 @@ C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstitu
 C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormBajaAlumno.resources
 C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormConsultaTodos.resources
 C:\Users\tzvet\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormAsignarNotas.resources
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\bin\Debug\GestionInstituto.exe.config
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\bin\Debug\GestionInstituto.exe
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\bin\Debug\GestionInstituto.pdb
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.csproj.AssemblyReference.cache
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormAltaAlumno.resources
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormAsignarNotas.resources
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormBajaAlumno.resources
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormConsultaTodos.resources
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.FormGestionInstituto.resources
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.Properties.Resources.resources
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.csproj.GenerateResource.cache
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.exe
+C:\Users\Alumno\Source\Repos\Interfaces\GestionInstituto\obj\Debug\GestionInstituto.pdb

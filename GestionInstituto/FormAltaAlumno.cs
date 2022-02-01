@@ -26,18 +26,21 @@ namespace GestionInstituto
 
         private void buttonCrear_Click(object sender, EventArgs e)
         {
-            // creamos el objeto alumno
-            String nombre = textBoxNombre.Text, apellidos = textBoxApellidos.Text, dni = textBoxDni.Text,
-                mail = textBoxMail.Text, nombreCurso = seleccinarCurso(), grupo = seleccionarGrupo();
-            Dictionary<String, bool> modulosActivos = asignarModulos();
-            Alumno alumno = new Alumno(nombre, apellidos, dni, mail, nombreCurso, grupo, modulosActivos);
+            if (camposCorrectos())
+            {
+                // creamos el objeto alumno
+                String nombre = textBoxNombre.Text, apellidos = textBoxApellidos.Text, dni = textBoxDni.Text,
+                    mail = textBoxMail.Text, nombreCurso = seleccionarCurso(), grupo = seleccionarGrupo();
+                Dictionary<String, bool> modulosActivos = asignarModulos();
+                Alumno alumno = new Alumno(nombre, apellidos, dni, mail, nombreCurso, grupo, modulosActivos);
 
-            // creamos o abrimos el fichero y añadimos el objeto alumno
-            FileStream stream = new FileStream("alumnos.obj", FileMode.Append, FileAccess.Write);
-            BinaryFormatter binaryFormatter = new BinaryFormatter();
-            binaryFormatter.Serialize(stream, alumno);
-            stream.Close();
-            limpiar();
+                // creamos o abrimos el fichero y añadimos el objeto alumno
+                FileStream stream = new FileStream("alumnos.obj", FileMode.Append, FileAccess.Write);
+                BinaryFormatter binaryFormatter = new BinaryFormatter();
+                binaryFormatter.Serialize(stream, alumno);
+                stream.Close();
+                limpiar();
+            }
         }
 
         private Dictionary<string, bool> asignarModulos()
@@ -70,13 +73,43 @@ namespace GestionInstituto
             return modulosActivos;
         }
 
+        private bool camposCorrectos()
+        {
+            // List<TextBox> textBoxes = panel1.Controls.OfType<TextBox>().ToList();
+            // foreach (Control control in FormAltaAlumno.ControlCollection) { }
+            
+            //List<Control> controls = new List<Control>()/*{ .... }*/;
+            /*foreach (var ctrl in controls.OfType<TextBox>().Where(x => string.IsNullOrEmpty(x.Text)))
+            {
+
+                errorProviderNombre.SetError(ctrl, "El campo es obligatorio");
+
+            }*/
+
+            bool camposCorrectos = true;
+            if (textBoxNombre.Text.Equals(""))
+            {
+                errorProviderNombre.SetError(textBoxNombre, "Debes poner un nombre");
+                camposCorrectos = false;
+            }
+            else errorProviderNombre.Clear();
+
+            if (textBoxApellidos.Text.Equals(""))
+            {
+                errorProviderApellidos.SetError(textBoxApellidos, "Debes poner un apellido");
+                camposCorrectos = false;
+            }
+            else errorProviderApellidos.Clear();
+            return camposCorrectos;
+        }
+
         private string seleccionarGrupo()
         {
             if (radioButtonA.Checked == true) return radioButtonA.Text;
             else return radioButtonB.Text;
         }
 
-        private String seleccinarCurso() 
+        private String seleccionarCurso() 
         {
             if (radioButton1DAM.Checked == true) return radioButton1DAM.Text;
             else return radioButton2DAM.Text;
@@ -134,6 +167,24 @@ namespace GestionInstituto
             checkBoxSGE.Checked = false;
             checkBoxTodos1.Checked = false;
             checkBoxTodos2.Checked = false;
+        }
+
+        private void radioButton1DAM_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1DAM.Checked == true)
+            {
+                groupBoxModulos1.Visible = true;
+                groupBoxModulos2.Visible = false;
+            }
+        }
+
+        private void radioButton2DAM_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton2DAM.Checked == true)
+            {
+                groupBoxModulos1.Visible = false;
+                groupBoxModulos2.Visible = true;
+            }
         }
     }
 }

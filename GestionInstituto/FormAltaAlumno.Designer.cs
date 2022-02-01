@@ -29,6 +29,7 @@ namespace GestionInstituto
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBoxNombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -56,10 +57,24 @@ namespace GestionInstituto
             this.radioButtonB = new System.Windows.Forms.RadioButton();
             this.radioButtonA = new System.Windows.Forms.RadioButton();
             this.textBoxInfo = new System.Windows.Forms.TextBox();
+            this.errorProviderNombre = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderApellidos = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderDni = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderMail = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderCurso = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderGrupo = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderModulo = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBoxCurso.SuspendLayout();
             this.groupBoxModulos1.SuspendLayout();
             this.groupBoxModulos2.SuspendLayout();
             this.groupBoxGrupo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderNombre)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderApellidos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderDni)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderMail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderCurso)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderGrupo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderModulo)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxNombre
@@ -156,12 +171,13 @@ namespace GestionInstituto
             this.radioButton1DAM.TabStop = true;
             this.radioButton1DAM.Text = "1º DAM";
             this.radioButton1DAM.UseVisualStyleBackColor = true;
+            this.radioButton1DAM.CheckedChanged += new System.EventHandler(this.radioButton1DAM_CheckedChanged);
             // 
             // groupBoxCurso
             // 
             this.groupBoxCurso.Controls.Add(this.radioButton2DAM);
             this.groupBoxCurso.Controls.Add(this.radioButton1DAM);
-            this.groupBoxCurso.Location = new System.Drawing.Point(289, 25);
+            this.groupBoxCurso.Location = new System.Drawing.Point(301, 25);
             this.groupBoxCurso.Name = "groupBoxCurso";
             this.groupBoxCurso.Size = new System.Drawing.Size(151, 46);
             this.groupBoxCurso.TabIndex = 15;
@@ -178,6 +194,7 @@ namespace GestionInstituto
             this.radioButton2DAM.TabStop = true;
             this.radioButton2DAM.Text = "2º DAM";
             this.radioButton2DAM.UseVisualStyleBackColor = true;
+            this.radioButton2DAM.CheckedChanged += new System.EventHandler(this.radioButton2DAM_CheckedChanged);
             // 
             // groupBoxModulos1
             // 
@@ -185,12 +202,13 @@ namespace GestionInstituto
             this.groupBoxModulos1.Controls.Add(this.checkBoxBBDD);
             this.groupBoxModulos1.Controls.Add(this.checkBoxEntornos);
             this.groupBoxModulos1.Controls.Add(this.checkBoxProgramacion);
-            this.groupBoxModulos1.Location = new System.Drawing.Point(289, 80);
+            this.groupBoxModulos1.Location = new System.Drawing.Point(301, 80);
             this.groupBoxModulos1.Name = "groupBoxModulos1";
             this.groupBoxModulos1.Size = new System.Drawing.Size(312, 46);
             this.groupBoxModulos1.TabIndex = 18;
             this.groupBoxModulos1.TabStop = false;
             this.groupBoxModulos1.Text = "Módulos 1º:";
+            this.groupBoxModulos1.Visible = false;
             // 
             // checkBoxTodos1
             // 
@@ -239,12 +257,13 @@ namespace GestionInstituto
             this.groupBoxModulos2.Controls.Add(this.checkBoxProcesos);
             this.groupBoxModulos2.Controls.Add(this.checkBoxSGE);
             this.groupBoxModulos2.Controls.Add(this.checkBoxInterfaces);
-            this.groupBoxModulos2.Location = new System.Drawing.Point(289, 132);
+            this.groupBoxModulos2.Location = new System.Drawing.Point(301, 80);
             this.groupBoxModulos2.Name = "groupBoxModulos2";
             this.groupBoxModulos2.Size = new System.Drawing.Size(312, 46);
             this.groupBoxModulos2.TabIndex = 23;
             this.groupBoxModulos2.TabStop = false;
             this.groupBoxModulos2.Text = "Módulos 2º:";
+            this.groupBoxModulos2.Visible = false;
             // 
             // checkBoxTodos2
             // 
@@ -291,7 +310,7 @@ namespace GestionInstituto
             // 
             this.groupBoxGrupo.Controls.Add(this.radioButtonB);
             this.groupBoxGrupo.Controls.Add(this.radioButtonA);
-            this.groupBoxGrupo.Location = new System.Drawing.Point(451, 25);
+            this.groupBoxGrupo.Location = new System.Drawing.Point(463, 25);
             this.groupBoxGrupo.Name = "groupBoxGrupo";
             this.groupBoxGrupo.Size = new System.Drawing.Size(150, 46);
             this.groupBoxGrupo.TabIndex = 17;
@@ -323,16 +342,44 @@ namespace GestionInstituto
             // textBoxInfo
             // 
             this.textBoxInfo.Enabled = false;
-            this.textBoxInfo.Location = new System.Drawing.Point(289, 194);
+            this.textBoxInfo.Location = new System.Drawing.Point(301, 158);
             this.textBoxInfo.Name = "textBoxInfo";
             this.textBoxInfo.Size = new System.Drawing.Size(312, 20);
             this.textBoxInfo.TabIndex = 24;
+            // 
+            // errorProviderNombre
+            // 
+            this.errorProviderNombre.ContainerControl = this;
+            // 
+            // errorProviderApellidos
+            // 
+            this.errorProviderApellidos.ContainerControl = this;
+            // 
+            // errorProviderDni
+            // 
+            this.errorProviderDni.ContainerControl = this;
+            // 
+            // errorProviderMail
+            // 
+            this.errorProviderMail.ContainerControl = this;
+            // 
+            // errorProviderCurso
+            // 
+            this.errorProviderCurso.ContainerControl = this;
+            // 
+            // errorProviderGrupo
+            // 
+            this.errorProviderGrupo.ContainerControl = this;
+            // 
+            // errorProviderModulo
+            // 
+            this.errorProviderModulo.ContainerControl = this;
             // 
             // FormAltaAlumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(630, 243);
+            this.ClientSize = new System.Drawing.Size(644, 210);
             this.Controls.Add(this.textBoxInfo);
             this.Controls.Add(this.groupBoxGrupo);
             this.Controls.Add(this.groupBoxModulos2);
@@ -358,6 +405,13 @@ namespace GestionInstituto
             this.groupBoxModulos2.PerformLayout();
             this.groupBoxGrupo.ResumeLayout(false);
             this.groupBoxGrupo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderNombre)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderApellidos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderDni)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderMail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderCurso)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderGrupo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderModulo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -392,5 +446,12 @@ namespace GestionInstituto
         private System.Windows.Forms.RadioButton radioButtonB;
         private System.Windows.Forms.RadioButton radioButtonA;
         private System.Windows.Forms.TextBox textBoxInfo;
+        private System.Windows.Forms.ErrorProvider errorProviderNombre;
+        private System.Windows.Forms.ErrorProvider errorProviderApellidos;
+        private System.Windows.Forms.ErrorProvider errorProviderDni;
+        private System.Windows.Forms.ErrorProvider errorProviderMail;
+        private System.Windows.Forms.ErrorProvider errorProviderCurso;
+        private System.Windows.Forms.ErrorProvider errorProviderGrupo;
+        private System.Windows.Forms.ErrorProvider errorProviderModulo;
     }
 }
