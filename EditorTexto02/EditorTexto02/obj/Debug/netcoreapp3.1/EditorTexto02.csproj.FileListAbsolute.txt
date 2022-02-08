@@ -1,0 +1,17 @@
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\bin\Debug\netcoreapp3.1\EditorTexto02.exe
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\bin\Debug\netcoreapp3.1\EditorTexto02.deps.json
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\bin\Debug\netcoreapp3.1\EditorTexto02.runtimeconfig.json
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\bin\Debug\netcoreapp3.1\EditorTexto02.runtimeconfig.dev.json
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\bin\Debug\netcoreapp3.1\EditorTexto02.dll
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\bin\Debug\netcoreapp3.1\EditorTexto02.pdb
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.Properties.Resources.resources
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.csproj.GenerateResource.cache
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.AssemblyInfoInputs.cache
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.AssemblyInfo.cs
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.csproj.CoreCompileInputs.cache
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.dll
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.pdb
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.genruntimeconfig.cache
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.csproj.AssemblyReference.cache
+C:\Users\tzvet\source\repos\Interfaces\EditorTexto02\EditorTexto02\obj\Debug\netcoreapp3.1\EditorTexto02.FormEditorTexto.resources

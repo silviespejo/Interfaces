@@ -44,7 +44,6 @@ namespace examen
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider4 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.labelInfo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
@@ -151,21 +150,11 @@ namespace examen
             // 
             this.errorProvider4.ContainerControl = this;
             // 
-            // labelInfo
-            // 
-            this.labelInfo.AutoSize = true;
-            this.labelInfo.Location = new System.Drawing.Point(246, 251);
-            this.labelInfo.Name = "labelInfo";
-            this.labelInfo.Size = new System.Drawing.Size(54, 15);
-            this.labelInfo.TabIndex = 16;
-            this.labelInfo.Text = "Nombre:";
-            // 
             // FormRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 308);
-            this.Controls.Add(this.labelInfo);
             this.Controls.Add(this.dtpFechaNacimiento);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -203,6 +192,5 @@ namespace examen
         private System.Windows.Forms.ErrorProvider errorProvider2;
         private System.Windows.Forms.ErrorProvider errorProvider3;
         private System.Windows.Forms.ErrorProvider errorProvider4;
-        private System.Windows.Forms.Label labelInfo;
     }
 }
