@@ -39,11 +39,12 @@ namespace examen
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxNombre = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider4 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.labelInfo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
@@ -127,12 +128,12 @@ namespace examen
             this.label4.TabIndex = 14;
             this.label4.Text = "Fecha Nacimiento:";
             // 
-            // dateTimePicker1
+            // dtpFechaNacimiento
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(222, 130);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
-            this.dateTimePicker1.TabIndex = 15;
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(222, 130);
+            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(200, 23);
+            this.dtpFechaNacimiento.TabIndex = 15;
             // 
             // errorProvider1
             // 
@@ -150,12 +151,22 @@ namespace examen
             // 
             this.errorProvider4.ContainerControl = this;
             // 
+            // labelInfo
+            // 
+            this.labelInfo.AutoSize = true;
+            this.labelInfo.Location = new System.Drawing.Point(246, 251);
+            this.labelInfo.Name = "labelInfo";
+            this.labelInfo.Size = new System.Drawing.Size(54, 15);
+            this.labelInfo.TabIndex = 16;
+            this.labelInfo.Text = "Nombre:";
+            // 
             // FormRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 308);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.labelInfo);
+            this.Controls.Add(this.dtpFechaNacimiento);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoxNombre);
@@ -187,10 +198,11 @@ namespace examen
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBoxNombre;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpFechaNacimiento;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.ErrorProvider errorProvider2;
         private System.Windows.Forms.ErrorProvider errorProvider3;
         private System.Windows.Forms.ErrorProvider errorProvider4;
+        private System.Windows.Forms.Label labelInfo;
     }
 }

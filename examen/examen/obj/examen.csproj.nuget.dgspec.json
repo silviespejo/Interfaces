@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Source\\Repos\\Interfaces\\examen\\examen\\examen.csproj": {}
+    "C:\\Users\\tzvet\\Source\\Repos\\Interfaces\\examen\\examen\\examen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Source\\Repos\\Interfaces\\examen\\examen\\examen.csproj": {
+    "C:\\Users\\tzvet\\Source\\Repos\\Interfaces\\examen\\examen\\examen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Source\\Repos\\Interfaces\\examen\\examen\\examen.csproj",
+        "projectUniqueName": "C:\\Users\\tzvet\\Source\\Repos\\Interfaces\\examen\\examen\\examen.csproj",
         "projectName": "examen",
-        "projectPath": "C:\\Users\\Alumno\\Source\\Repos\\Interfaces\\examen\\examen\\examen.csproj",
-        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Source\\Repos\\Interfaces\\examen\\examen\\obj\\",
+        "projectPath": "C:\\Users\\tzvet\\Source\\Repos\\Interfaces\\examen\\examen\\examen.csproj",
+        "packagesPath": "C:\\Users\\tzvet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tzvet\\Source\\Repos\\Interfaces\\examen\\examen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tzvet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

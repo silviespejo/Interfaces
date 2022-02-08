@@ -94,13 +94,13 @@ namespace examen
             // labelUsrsRegistrados
             // 
             this.labelUsrsRegistrados.AutoSize = true;
-            this.labelUsrsRegistrados.Location = new System.Drawing.Point(203, 195);
+            this.labelUsrsRegistrados.Location = new System.Drawing.Point(112, 199);
             this.labelUsrsRegistrados.Name = "labelUsrsRegistrados";
-            this.labelUsrsRegistrados.Size = new System.Drawing.Size(28, 15);
+            this.labelUsrsRegistrados.Size = new System.Drawing.Size(126, 15);
             this.labelUsrsRegistrados.TabIndex = 6;
-            this.labelUsrsRegistrados.Text = "info";
+            this.labelUsrsRegistrados.Text = "Número de usuarios: 0";
             // 
-            // AccesoUsuarios
+            // FormAccesoUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -112,7 +112,7 @@ namespace examen
             this.Controls.Add(this.textBoxUser);
             this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.buttonAceptar);
-            this.Name = "AccesoUsuarios";
+            this.Name = "FormAccesoUsuarios";
             this.Text = "Acceso Usuarios";
             this.ResumeLayout(false);
             this.PerformLayout();

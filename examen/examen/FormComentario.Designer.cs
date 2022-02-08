@@ -32,7 +32,7 @@ namespace examen
             this.label1 = new System.Windows.Forms.Label();
             this.labelNombreUser = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxComentario = new System.Windows.Forms.TextBox();
             this.buttonGuardar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -63,13 +63,13 @@ namespace examen
             this.label3.TabIndex = 2;
             this.label3.Text = "Comentario:";
             // 
-            // textBox1
+            // textBoxComentario
             // 
-            this.textBox1.Location = new System.Drawing.Point(69, 128);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(454, 90);
-            this.textBox1.TabIndex = 3;
+            this.textBoxComentario.Location = new System.Drawing.Point(69, 128);
+            this.textBoxComentario.Multiline = true;
+            this.textBoxComentario.Name = "textBoxComentario";
+            this.textBoxComentario.Size = new System.Drawing.Size(454, 90);
+            this.textBoxComentario.TabIndex = 3;
             // 
             // buttonGuardar
             // 
@@ -79,6 +79,7 @@ namespace examen
             this.buttonGuardar.TabIndex = 4;
             this.buttonGuardar.Text = "Guardar";
             this.buttonGuardar.UseVisualStyleBackColor = true;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click);
             // 
             // FormComentario
             // 
@@ -86,12 +87,13 @@ namespace examen
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(598, 331);
             this.Controls.Add(this.buttonGuardar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxComentario);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.labelNombreUser);
             this.Controls.Add(this.label1);
             this.Name = "FormComentario";
             this.Text = "FormComentario";
+            this.Load += new System.EventHandler(this.FormComentario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -102,7 +104,7 @@ namespace examen
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelNombreUser;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxComentario;
         private System.Windows.Forms.Button buttonGuardar;
     }
 }

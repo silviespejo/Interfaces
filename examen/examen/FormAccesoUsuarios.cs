@@ -29,14 +29,18 @@ namespace examen
         {
             String usr = textBoxUser.Text, pass = textBoxPass.Text;
 
-            if (!datos.existeUser(usr))// si el usr no existe le abrimos el FormRegisto
+            if (!datos.existeUser(usr, pass))// si el usr no existe le abrimos el FormRegisto
             {
-                FormRegistro formRegistro = new FormRegistro(datos);
+                FormRegistro formRegistro = new FormRegistro(datos, usr, pass);
                 formRegistro.ShowDialog();
+                labelUsrsRegistrados.Text = "Número de usuarios: " + datos.ArrayUsers.Length;
             }
             else // si existe le abrimos el FormComentario
             {
-                FormComentario formComentario = new FormComentario();
+                usr = textBoxUser.Text;
+                pass = textBoxPass.Text;
+                FormComentario formComentario = new FormComentario(datos.extraerUsuario(usr, pass));
+                formComentario.Show();
             }
         }
     }
