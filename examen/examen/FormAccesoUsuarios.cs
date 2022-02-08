@@ -34,7 +34,7 @@ namespace examen
                 FormRegistro formRegistro = new FormRegistro(datos);
                 formRegistro.ShowDialog();
             }
-            else // sino le abrimos el FormComentario
+            else // si existe le abrimos el FormComentario
             {
                 FormComentario formComentario = new FormComentario();
             }
