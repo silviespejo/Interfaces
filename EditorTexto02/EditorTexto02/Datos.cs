@@ -6,6 +6,13 @@ namespace EditorTexto02
 {
     public class Datos
     {
-        String directorio;
+        String nombreFicheroActual;
+
+        public Datos()
+        {
+            this.nombreFicheroActual = "";
+        }
+
+        public string NombreFicheroActual { get => nombreFicheroActual; set => nombreFicheroActual = value; }
     }
 }

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\EditorTexto02",
+    "\\EditorTexto02\\EditorTexto02"
   ],
-  "SelectedNode": "\\C:\\Users\\tzvet\\source\\repos\\Interfaces",
+  "SelectedNode": "\\EditorTexto02\\EditorTexto02\\FormEditorTexto.cs",
   "PreviewInSolutionExplorer": false
 }

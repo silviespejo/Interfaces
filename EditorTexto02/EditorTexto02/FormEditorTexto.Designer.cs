@@ -77,18 +77,21 @@ namespace EditorTexto02
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
             this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
+            this.nuevoToolStripMenuItem.Click += new System.EventHandler(this.nuevoToolStripMenuItem_Click);
             // 
             // abrirToolStripMenuItem1
             // 
             this.abrirToolStripMenuItem1.Name = "abrirToolStripMenuItem1";
             this.abrirToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.abrirToolStripMenuItem1.Text = "Abrir...";
+            this.abrirToolStripMenuItem1.Click += new System.EventHandler(this.abrirToolStripMenuItem1_Click);
             // 
             // guardarToolStripMenuItem
             // 
             this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
             this.guardarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.guardarToolStripMenuItem.Text = "Guardar";
+            this.guardarToolStripMenuItem.Click += new System.EventHandler(this.guardarToolStripMenuItem_Click);
             // 
             // guardarComoToolStripMenuItem
             // 
@@ -117,7 +120,7 @@ namespace EditorTexto02
             this.textBoxPrincipal.Size = new System.Drawing.Size(800, 422);
             this.textBoxPrincipal.TabIndex = 1;
             // 
-            // Form1
+            // FormEditorTexto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -125,7 +128,7 @@ namespace EditorTexto02
             this.Controls.Add(this.textBoxPrincipal);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "FormEditorTexto";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
