@@ -1,0 +1,16 @@
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\bin\Debug\netcoreapp3.1\Traductor.exe
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\bin\Debug\netcoreapp3.1\Traductor.deps.json
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\bin\Debug\netcoreapp3.1\Traductor.runtimeconfig.json
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\bin\Debug\netcoreapp3.1\Traductor.runtimeconfig.dev.json
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\bin\Debug\netcoreapp3.1\Traductor.dll
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\bin\Debug\netcoreapp3.1\Traductor.pdb
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\obj\Debug\netcoreapp3.1\Traductor.Form1.resources
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\obj\Debug\netcoreapp3.1\Traductor.csproj.GenerateResource.cache
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\obj\Debug\netcoreapp3.1\Traductor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\obj\Debug\netcoreapp3.1\Traductor.AssemblyInfoInputs.cache
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\obj\Debug\netcoreapp3.1\Traductor.AssemblyInfo.cs
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\obj\Debug\netcoreapp3.1\Traductor.csproj.CoreCompileInputs.cache
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\obj\Debug\netcoreapp3.1\Traductor.dll
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\obj\Debug\netcoreapp3.1\Traductor.pdb
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\obj\Debug\netcoreapp3.1\Traductor.genruntimeconfig.cache
+C:\Users\tzvet\source\repos\Interfaces\Traductor\Traductor\obj\Debug\netcoreapp3.1\Traductor.csproj.AssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\bin\Debug\netcoreapp3.1\conversorCmPulgadas.exe
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\bin\Debug\netcoreapp3.1\conversorCmPulgadas.deps.json
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\bin\Debug\netcoreapp3.1\conversorCmPulgadas.runtimeconfig.json
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\bin\Debug\netcoreapp3.1\conversorCmPulgadas.runtimeconfig.dev.json
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\bin\Debug\netcoreapp3.1\conversorCmPulgadas.dll
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\bin\Debug\netcoreapp3.1\conversorCmPulgadas.pdb
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\obj\Debug\netcoreapp3.1\conversorCmPulgadas.Form1.resources
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\obj\Debug\netcoreapp3.1\conversorCmPulgadas.csproj.GenerateResource.cache
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\obj\Debug\netcoreapp3.1\conversorCmPulgadas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\obj\Debug\netcoreapp3.1\conversorCmPulgadas.AssemblyInfoInputs.cache
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\obj\Debug\netcoreapp3.1\conversorCmPulgadas.AssemblyInfo.cs
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\obj\Debug\netcoreapp3.1\conversorCmPulgadas.csproj.CoreCompileInputs.cache
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\obj\Debug\netcoreapp3.1\conversorCmPulgadas.dll
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\obj\Debug\netcoreapp3.1\conversorCmPulgadas.pdb
+C:\Users\tzvet\source\repos\Interfaces\conversorCmPulgadas\conversorCmPulgadas\obj\Debug\netcoreapp3.1\conversorCmPulgadas.genruntimeconfig.cache
